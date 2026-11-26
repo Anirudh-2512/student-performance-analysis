@@ -1,4 +1,7 @@
-﻿# Student Performance Analysis | SQL & Data Analytics
+
+ https://student-performance-analysis-wine.vercel.app
+ 
+ # Student Performance Analysis | SQL & Data Analytics
 
 A beginner-friendly, portfolio-ready data analytics project using **MySQL, Python, Pandas, and Matplotlib** to explore student marks, attendance, subject-wise performance, and academic trends.
 
