@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Performance Analysis | SQL & Data Analytics</title>
+  <meta name="description" content="Portfolio data analytics project analyzing synthetic student performance data with MySQL, Python, Pandas, and Matplotlib.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg"></div>
+  <header class="hero">
+    <nav class="nav container">
+      <div class="brand">Student Performance Analysis</div>
+      <div class="nav-links">
+        <a href="#findings">Findings</a>
+        <a href="#charts">Charts</a>
+        <a href="#workflow">Workflow</a>
+        <a href="https://github.com/" id="repo-link" aria-label="GitHub repository">GitHub</a>
+      </div>
+    </nav>
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">SQL & Data Analytics Portfolio Project</p>
+        <h1>Student performance insights, built with <span>MySQL + Python</span>.</h1>
+        <p class="lede">An end-to-end analysis of a clearly labelled synthetic student dataset covering marks, attendance, class performance, data validation, and visual reporting.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="#findings">View Findings</a>
+          <a class="btn secondary" href="#workflow">Run Locally</a>
+        </div>
+        <div class="tags">
+          <span>MySQL</span><span>Python</span><span>Pandas</span><span>Matplotlib</span><span>Jupyter</span><span>SQL</span>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="stat-grid">
+          <div class="stat"><div class="stat-value">60</div><div class="stat-label">Student records</div></div>
+          <div class="stat"><div class="stat-value">5</div><div class="stat-label">Charts generated</div></div>
+          <div class="stat"><div class="stat-value">7</div><div class="stat-label">SQL analysis tasks</div></div>
+          <div class="stat"><div class="stat-value">0</div><div class="stat-label">Data quality issues</div></div>
+        </div>
+        <p class="note"><strong>Data note:</strong> Synthetic, fictional dataset for portfolio demonstration only. Findings are not real-world facts.</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section container" id="findings">
+      <div class="section-head">
+        <p class="eyebrow">Executed Findings</p>
+        <h2>What the analysis found</h2>
+        <p>Results below are computed from the included synthetic dataset and exported analysis pipeline.</p>
+      </div>
+      <div class="cards">
+        <article class="card"><h3>Top Subject</h3><p class="big">Science</p><p>Highest average score: <strong>71.96</strong>.</p></article>
+        <article class="card"><h3>Lowest Subject</h3><p class="big">English</p><p>Lowest average score: <strong>70.62</strong>.</p></article>
+        <article class="card"><h3>Attendance Risk</h3><p class="big">26.67%</p><p><strong>16 students</strong> below 75% attendance threshold.</p></article>
+        <article class="card"><h3>Attendance vs Marks</h3><p class="big">0.1471</p><p>Weak positive Pearson correlation; <strong>not causation</strong>.</p></article>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Performance Band</th><th>Threshold</th><th>Students</th><th>Share</th></tr></thead>
+          <tbody>
+            <tr><td>Excellent</td><td>80-100</td><td>14</td><td>23.33%</td></tr>
+            <tr><td>Good</td><td>60-79.99</td><td>35</td><td>58.33%</td></tr>
+            <tr><td>Needs improvement</td><td>40-59.99</td><td>10</td><td>16.67%</td></tr>
+            <tr><td>At risk</td><td>Below 40</td><td>1</td><td>1.67%</td></tr>
+          </tbody>
+        </table>
+        <p class="caption">Bands are project-defined, transparent thresholds — not official academic standards.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="charts">
+      <div class="section-head">
+        <p class="eyebrow">Visual Reporting</p>
+        <h2>Charts generated from computed data</h2>
+      </div>
+      <div class="chart-grid">
+        <figure class="chart-card"><img src="assets/charts/subject_wise_average_marks.png" alt="Subject-wise average marks bar chart"><figcaption>Subject-wise average marks</figcaption></figure>
+        <figure class="chart-card"><img src="assets/charts/attendance_distribution.png" alt="Attendance distribution histogram"><figcaption>Attendance distribution</figcaption></figure>
+        <figure class="chart-card"><img src="assets/charts/attendance_vs_average_marks.png" alt="Attendance vs average marks scatter plot"><figcaption>Attendance vs average marks</figcaption></figure>
+        <figure class="chart-card"><img src="assets/charts/performance_bands.png" alt="Performance bands bar chart"><figcaption>Performance bands</figcaption></figure>
+        <figure class="chart-card wide"><img src="assets/charts/class_wise_average_performance.png" alt="Class-wise average performance bar chart"><figcaption>Class-wise average performance</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section container" id="workflow">
+      <div class="section-head">
+        <p class="eyebrow">Technical Workflow</p>
+        <h2>How it was built</h2>
+      </div>
+      <div class="workflow-grid">
+        <div class="panel">
+          <h3>Data & Validation</h3>
+          <ul>
+            <li>Synthetic CSV with documented schema and 0-100 range checks.</li>
+            <li>Duplicate, missing, and out-of-range validation before analysis.</li>
+            <li>Missing marks never silently filled with zero; cleaning decisions reported.</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>SQL Analysis</h3>
+          <ul>
+            <li>MySQL schema aligned to CSV columns with constraints.</li>
+            <li>Queries for averages, attendance filter, class/top performers, min/max, bands.</li>
+            <li>Executed against MySQL 8.4 during development verification.</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>Python Pipeline</h3>
+          <ul>
+            <li>Pandas for cleaning, aggregation, and summary export.</li>
+            <li>Matplotlib charts saved from computed data.</li>
+            <li>Notebook + scripts for reproducible analysis.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="code-panel">
+        <h3>Run locally</h3>
+<pre><code>python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+$env:PYTHONPATH="src"
+python src/run_analysis.py</code></pre>
+        <p class="caption">For MySQL: run <code>sql/schema.sql</code>, import <code>data/raw/student_performance.csv</code>, then run <code>sql/analysis_queries.sql</code>. Keep credentials in <code>.env</code>.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="interview">
+      <div class="section-head">
+        <p class="eyebrow">Interview Ready</p>
+        <h2>Key talking points</h2>
+      </div>
+      <div class="cards two">
+        <article class="card"><h3>Why this project?</h3><p>Demonstrates the core data analyst workflow: data validation, SQL querying, Python EDA, visualization, and communicating findings with limitations.</p></article>
+        <article class="card"><h3>What I’d improve next</h3><p>Add a larger real/public dataset with provenance, automated tests/CI, a small dashboard, and statistical tests for attendance-performance relationships.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p>Built by Anirudh • Synthetic data for portfolio use • <a href="README.md">Project README</a></p>
+  </footer>
+</body>
+</html>

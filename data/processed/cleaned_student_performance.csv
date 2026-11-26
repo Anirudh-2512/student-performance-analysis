@@ -1,0 +1,61 @@
+student_id,student_name,class_name,gender,attendance_percentage,mathematics_marks,science_marks,english_marks,social_science_marks,computer_marks,average_score,performance_band
+1,Neel Patel,Class 10-A,Male,82.21,90.89,88.27,70.12,77.37,83.86,82.1,80-100: Excellent
+2,Meera Iyer,Class 10-C,Female,83.06,51.6,53.85,48.41,50.23,58.39,52.5,40-59.99: Needs improvement
+3,Anika Sharma,Class 10-A,Male,78.25,85.68,76.77,81.71,80.68,84.96,81.96,80-100: Excellent
+4,Maya Sharma,Class 10-C,Male,68.64,34.12,31.64,45.98,44.28,29.22,37.05,Below 40: At risk
+5,Anika Nair,Class 10-C,Female,80.97,70.88,76.51,75.07,72.76,75.17,74.08,60-79.99: Good
+6,Neel Bose,Class 10-B,Female,87.74,73.54,67.54,88.23,62.99,60.75,70.61,60-79.99: Good
+7,Anaya Iyer,Class 10-C,Female,88.07,96.71,84.55,73.91,81.04,92.92,85.83,80-100: Excellent
+8,Meera Bose,Class 10-A,Male,64.68,67.53,74.66,60.43,64.7,60.39,65.54,60-79.99: Good
+9,Sneha Das,Class 10-C,Male,86.1,79.61,69.97,79.76,71.46,73.36,74.83,60-79.99: Good
+10,Kabir Iyer,Class 10-B,Female,76.3,57.31,75.9,77.06,68.63,63.43,68.47,60-79.99: Good
+11,Rahul Das,Class 10-C,Male,50.59,60.87,59.15,57.87,48.19,53.95,56.01,40-59.99: Needs improvement
+12,Neel Nair,Class 10-A,Male,79.82,64.61,76.76,56.43,60.31,70.5,65.72,60-79.99: Good
+13,Anaya Iyer,Class 10-A,Male,89.78,66.16,71.06,74.17,80.55,79.54,74.3,60-79.99: Good
+14,Riya Nair,Class 10-B,Female,69.42,84.21,93.74,77.96,79.69,85.23,84.17,80-100: Excellent
+15,Aman Patel,Class 10-A,Male,95.36,42.69,45.9,36.34,30.4,51.73,41.41,40-59.99: Needs improvement
+16,Riya Das,Class 10-A,Female,94.66,66.27,70.47,67.3,81.2,68.95,70.84,60-79.99: Good
+17,Meera Kumar,Class 10-A,Male,97.11,78.72,79.03,78.81,76.85,81.38,78.96,60-79.99: Good
+18,Aditya Patel,Class 10-C,Female,83.25,80.68,59.16,68.47,79.35,64.54,70.44,60-79.99: Good
+19,Meera Chopra,Class 10-B,Male,83.98,71.67,82.81,66.64,81.95,68.62,74.34,60-79.99: Good
+20,Isha Sharma,Class 10-B,Male,51.38,64.24,71.46,77.16,71.14,71.83,71.17,60-79.99: Good
+21,Karan Kumar,Class 10-A,Male,90.42,63.28,60.49,52.45,53.44,64.94,58.92,40-59.99: Needs improvement
+22,Meera Singh,Class 10-B,Male,93.11,54.56,56.62,49.93,60.65,52.8,54.91,40-59.99: Needs improvement
+23,Leena Chopra,Class 10-B,Male,55.32,91.28,80.8,80.18,76.55,75.01,80.76,80-100: Excellent
+24,Aman Verma,Class 10-C,Female,100.0,75.45,70.03,73.43,81.01,74.46,74.88,60-79.99: Good
+25,Vikram Patel,Class 10-A,Female,67.12,60.29,63.94,64.55,56.09,50.7,59.11,40-59.99: Needs improvement
+26,Priya Joshi,Class 10-C,Male,72.67,76.7,77.61,73.08,69.39,86.13,76.58,60-79.99: Good
+27,Saanvi Reddy,Class 10-B,Female,98.69,75.51,77.48,69.67,76.68,83.89,76.65,60-79.99: Good
+28,Rohan Kapoor,Class 10-A,Male,90.22,81.38,66.45,71.17,87.43,71.53,75.59,60-79.99: Good
+29,Vikram Sharma,Class 10-C,Male,87.1,77.21,68.35,82.83,64.27,76.33,73.8,60-79.99: Good
+30,Vivaan Verma,Class 10-B,Female,90.09,52.31,60.7,66.57,68.95,65.37,62.78,60-79.99: Good
+31,Neel Das,Class 10-B,Female,100.0,74.65,73.98,78.15,68.59,77.71,74.62,60-79.99: Good
+32,Rohan Kapoor,Class 10-C,Female,82.73,47.81,48.16,49.85,56.88,57.03,51.95,40-59.99: Needs improvement
+33,Dev Kapoor,Class 10-A,Male,84.26,94.24,91.5,89.22,77.69,79.76,86.48,80-100: Excellent
+34,Leena Kumar,Class 10-A,Female,77.22,73.32,73.93,67.37,87.59,68.47,74.14,60-79.99: Good
+35,Anika Verma,Class 10-A,Male,92.07,90.3,93.48,86.72,92.94,98.44,92.38,80-100: Excellent
+36,Yash Chopra,Class 10-A,Female,76.54,80.94,72.61,94.26,86.49,78.82,82.62,80-100: Excellent
+37,Neel Iyer,Class 10-B,Male,87.51,77.85,71.99,79.02,71.45,79.55,75.97,60-79.99: Good
+38,Kavya Chopra,Class 10-B,Male,90.07,58.56,56.61,71.41,64.11,77.05,65.55,60-79.99: Good
+39,Aarav Iyer,Class 10-C,Female,78.99,72.77,70.29,70.37,90.73,75.16,75.86,60-79.99: Good
+40,Saanvi Joshi,Class 10-B,Male,72.04,66.9,68.87,69.04,74.24,58.64,67.54,60-79.99: Good
+41,Dev Singh,Class 10-C,Male,63.11,79.85,86.86,84.11,71.02,77.89,79.95,60-79.99: Good
+42,Tara Kumar,Class 10-C,Male,93.65,65.4,83.89,73.23,82.43,96.47,80.28,80-100: Excellent
+43,Riya Nair,Class 10-A,Female,78.01,65.74,66.87,65.47,74.26,67.0,67.87,60-79.99: Good
+44,Priya Kapoor,Class 10-C,Female,78.22,62.75,66.82,73.14,64.02,54.85,64.32,60-79.99: Good
+45,Anika Chopra,Class 10-A,Male,86.22,93.08,87.63,79.34,89.75,99.15,89.79,80-100: Excellent
+46,Karan Joshi,Class 10-C,Male,86.43,93.7,89.22,90.62,83.84,98.46,91.17,80-100: Excellent
+47,Pooja Reddy,Class 10-A,Male,62.95,78.62,69.72,76.76,66.1,75.75,73.39,60-79.99: Good
+48,Siddharth Gupta,Class 10-A,Male,94.89,78.45,67.94,66.16,60.52,67.03,68.02,60-79.99: Good
+49,Vivaan Patel,Class 10-B,Male,75.46,97.85,89.63,73.32,92.63,85.36,87.76,80-100: Excellent
+50,Dev Chopra,Class 10-C,Male,81.21,47.91,42.76,52.74,56.97,35.58,47.19,40-59.99: Needs improvement
+51,Pooja Verma,Class 10-C,Female,72.45,64.16,72.79,65.09,59.58,69.59,66.24,60-79.99: Good
+52,Leena Singh,Class 10-C,Female,59.31,75.56,79.73,78.61,67.0,88.44,77.87,60-79.99: Good
+53,Anaya Sharma,Class 10-B,Male,75.83,75.29,97.93,80.42,100.0,70.52,84.83,80-100: Excellent
+54,Sneha Sharma,Class 10-C,Female,92.78,87.58,79.39,76.29,79.82,76.65,79.95,60-79.99: Good
+55,Meera Kumar,Class 10-A,Female,82.98,100.0,100.0,81.55,88.89,80.14,90.12,80-100: Excellent
+56,Kavya Verma,Class 10-A,Female,94.01,81.51,89.18,83.46,73.47,64.26,78.38,60-79.99: Good
+57,Rahul Verma,Class 10-A,Female,63.07,57.21,69.0,52.78,68.17,61.53,61.74,60-79.99: Good
+58,Aman Chopra,Class 10-A,Male,61.89,49.03,61.92,56.28,59.76,52.09,55.82,40-59.99: Needs improvement
+59,Sneha Patel,Class 10-B,Male,67.15,50.81,44.82,50.96,32.42,51.24,46.05,40-59.99: Needs improvement
+60,Pooja Chopra,Class 10-B,Male,100.0,65.48,58.57,75.9,62.03,57.4,63.88,60-79.99: Good

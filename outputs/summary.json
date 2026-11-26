@@ -1,0 +1,211 @@
+{
+  "validation_issues": {
+    "missing_columns": [],
+    "duplicate_rows": 0,
+    "duplicate_student_ids": 0,
+    "missing_values_by_column": {
+      "student_id": 0,
+      "student_name": 0,
+      "class_name": 0,
+      "gender": 0,
+      "attendance_percentage": 0,
+      "mathematics_marks": 0,
+      "science_marks": 0,
+      "english_marks": 0,
+      "social_science_marks": 0,
+      "computer_marks": 0
+    },
+    "non_numeric_coerced_to_nan": {
+      "attendance_percentage": 0,
+      "mathematics_marks": 0,
+      "science_marks": 0,
+      "english_marks": 0,
+      "social_science_marks": 0,
+      "computer_marks": 0
+    },
+    "invalid_attendance_rows": 0,
+    "out_of_range_marks_rows": {
+      "mathematics_marks": 0,
+      "science_marks": 0,
+      "english_marks": 0,
+      "social_science_marks": 0,
+      "computer_marks": 0
+    },
+    "row_count": 60
+  },
+  "cleaning_report": {
+    "rows_before": 60,
+    "duplicate_rows_removed": 0,
+    "duplicate_student_ids_before": 0,
+    "rows_removed_missing_critical": 0,
+    "rows_removed_missing_numeric": 0,
+    "rows_removed_invalid_attendance": 0,
+    "rows_removed_invalid_marks": 0,
+    "rows_after": 60,
+    "rows_removed_total": 0
+  },
+  "subject_summary": [
+    {
+      "subject": "mathematics_marks",
+      "mean": 71.72,
+      "median": 73.43,
+      "min": 34.12,
+      "max": 100.0
+    },
+    {
+      "subject": "science_marks",
+      "mean": 71.96,
+      "median": 71.72,
+      "min": 31.64,
+      "max": 100.0
+    },
+    {
+      "subject": "english_marks",
+      "mean": 70.62,
+      "median": 73.18,
+      "min": 36.34,
+      "max": 94.26
+    },
+    {
+      "subject": "social_science_marks",
+      "mean": 71.03,
+      "median": 71.46,
+      "min": 30.4,
+      "max": 100.0
+    },
+    {
+      "subject": "computer_marks",
+      "mean": 71.0,
+      "median": 71.68,
+      "min": 29.22,
+      "max": 99.15
+    }
+  ],
+  "class_summary": [
+    {
+      "class_name": "Class 10-A",
+      "student_count": 23,
+      "avg_attendance": 81.9,
+      "avg_score": 72.83
+    },
+    {
+      "class_name": "Class 10-B",
+      "student_count": 17,
+      "avg_attendance": 80.83,
+      "avg_score": 71.18
+    },
+    {
+      "class_name": "Class 10-C",
+      "student_count": 20,
+      "avg_attendance": 79.47,
+      "avg_score": 69.54
+    }
+  ],
+  "performance_bands": [
+    {
+      "performance_band": "80-100: Excellent",
+      "student_count": 14,
+      "percentage": 23.33
+    },
+    {
+      "performance_band": "60-79.99: Good",
+      "student_count": 35,
+      "percentage": 58.33
+    },
+    {
+      "performance_band": "40-59.99: Needs improvement",
+      "student_count": 10,
+      "percentage": 16.67
+    },
+    {
+      "performance_band": "Below 40: At risk",
+      "student_count": 1,
+      "percentage": 1.67
+    }
+  ],
+  "attendance_vs_marks": {
+    "threshold": 75.0,
+    "students_below_threshold": 16,
+    "percent_below_threshold": 26.67,
+    "correlation_attendance_average": 0.1471
+  },
+  "top_students": [
+    {
+      "student_id": 35,
+      "student_name": "Anika Verma",
+      "class_name": "Class 10-A",
+      "attendance_percentage": 92.07,
+      "average_score": 92.38
+    },
+    {
+      "student_id": 46,
+      "student_name": "Karan Joshi",
+      "class_name": "Class 10-C",
+      "attendance_percentage": 86.43,
+      "average_score": 91.17
+    },
+    {
+      "student_id": 55,
+      "student_name": "Meera Kumar",
+      "class_name": "Class 10-A",
+      "attendance_percentage": 82.98,
+      "average_score": 90.12
+    },
+    {
+      "student_id": 45,
+      "student_name": "Anika Chopra",
+      "class_name": "Class 10-A",
+      "attendance_percentage": 86.22,
+      "average_score": 89.79
+    },
+    {
+      "student_id": 49,
+      "student_name": "Vivaan Patel",
+      "class_name": "Class 10-B",
+      "attendance_percentage": 75.46,
+      "average_score": 87.76
+    },
+    {
+      "student_id": 33,
+      "student_name": "Dev Kapoor",
+      "class_name": "Class 10-A",
+      "attendance_percentage": 84.26,
+      "average_score": 86.48
+    },
+    {
+      "student_id": 7,
+      "student_name": "Anaya Iyer",
+      "class_name": "Class 10-C",
+      "attendance_percentage": 88.07,
+      "average_score": 85.83
+    },
+    {
+      "student_id": 53,
+      "student_name": "Anaya Sharma",
+      "class_name": "Class 10-B",
+      "attendance_percentage": 75.83,
+      "average_score": 84.83
+    },
+    {
+      "student_id": 14,
+      "student_name": "Riya Nair",
+      "class_name": "Class 10-B",
+      "attendance_percentage": 69.42,
+      "average_score": 84.17
+    },
+    {
+      "student_id": 36,
+      "student_name": "Yash Chopra",
+      "class_name": "Class 10-A",
+      "attendance_percentage": 76.54,
+      "average_score": 82.62
+    }
+  ],
+  "charts": [
+    "outputs\\charts\\subject_wise_average_marks.png",
+    "outputs\\charts\\attendance_distribution.png",
+    "outputs\\charts\\attendance_vs_average_marks.png",
+    "outputs\\charts\\performance_bands.png",
+    "outputs\\charts\\class_wise_average_performance.png"
+  ]
+}
