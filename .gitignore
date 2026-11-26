@@ -6,3 +6,5 @@
 outputs/charts/*.png
 .DS_Store
 Thumbs.db
+.vercel
+.env*
